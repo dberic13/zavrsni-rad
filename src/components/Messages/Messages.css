@@ -1,0 +1,50 @@
+.messages-list {
+    padding: 20px 0;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    list-style: none;
+    padding-left: 0;
+    flex-grow: 1;
+    overflow: auto;
+  }
+  
+  .messages-message {
+    display: flex;
+    margin-top: 15px;
+    align-items: flex-start;
+  }
+  
+  .messages-message.current-member {
+    justify-content: flex-end;
+  }
+  
+  .message-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #1de748;
+    color: white;
+    border: 1px solid #333;
+  }
+  
+  .current-member > .message-content {
+    align-self: flex-end;
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #0056b3;
+  }
+  
+  .message-content > .username {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 2px;
+  }
+  
+  .message-content > .text {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  

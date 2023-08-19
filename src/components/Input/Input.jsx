@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import './Input.css'
 
 class Input extends Component {
   state = {
@@ -23,7 +24,7 @@ class Input extends Component {
     const { messageText } = this.state;
 
     return (
-      <div className="Input">
+      <div className="Input-container">
         <form onSubmit={this.handleFormSubmit}>
           <input
             onChange={this.handleTextChange}

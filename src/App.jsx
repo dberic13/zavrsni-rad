@@ -74,9 +74,9 @@ class App extends Component {
     const { messages, member } = this.state;
 
     return (
-      <div className="App">
-        <div className="App-header">
-          <h1>Random Chat</h1>
+      <div className="app">
+        <div className="app-header">
+          <h1 className='header-text'>Random Chat</h1>
         </div>
         <Messages messages={messages} currentMember={member} />
         <Input onSendMessage={this.onSendMessage} />

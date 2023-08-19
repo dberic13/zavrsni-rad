@@ -70,3 +70,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 link za GIT: https://github.com/dberic13/zavrsni-rad.git
+
+### `update 2.0` fails to minify
+In update 2.0 class names were harmonized, 2 animations are added and code got clean by separating App.css into files App.css, Input.css and Messages.css 

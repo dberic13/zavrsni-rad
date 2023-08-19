@@ -71,5 +71,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 link za GIT: https://github.com/dberic13/zavrsni-rad.git
 
-### `update 2.0` fails to minify
+### `update 2.0` 20230819 17:00
 In update 2.0 class names were harmonized, 2 animations are added and code got clean by separating App.css into files App.css, Input.css and Messages.css 

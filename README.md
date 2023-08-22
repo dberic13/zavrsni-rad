@@ -72,4 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 link za GIT: https://github.com/dberic13/zavrsni-rad.git
 
 ### `update 2.0` 20230819 17:00
-In update 2.0 class names were harmonized, 2 animations are added and code got clean by separating App.css into files App.css, Input.css and Messages.css 
+In update 2.0 class names were harmonized, 2 animations are added and code got clean by separating App.css into files App.css, Input.css and Messages.css
+
+### `update 3.0` 20230822 9:00
+In update 3.0 in App.jsx part for not sending double messages is deleted and Input.js is changed so messages are now sending normaly.
